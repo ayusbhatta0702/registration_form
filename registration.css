@@ -1,0 +1,95 @@
+body{
+    background-color: #1b1b32;
+    color: white;
+    font-family: Tahoma;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+ 
+form{
+    width: 60%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+ 
+fieldset{
+    border: none;
+    border-bottom: 3px solid gray;
+    padding: 40px 0;
+}
+ 
+fieldset:last-of-type{
+    border-bottom: none;
+}
+
+fieldset[name='account']{
+    padding-bottom: 20px;
+}
+ 
+label{
+    display: block;
+}
+ 
+input, textarea, select{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 100%;
+    font-family: Tahoma;
+    font-weight: 400;
+    border-radius: 7px;
+    border: 0;
+    background-color: #0b0b14;
+    color: white;
+}
+ 
+input[type='submit']{
+    display: block;
+    background-color: #4a4a69;
+    border: 2px solid white;
+    width: 60%;
+    height: 2em;
+    margin: 0.1em auto 2em auto;
+    font-size: 1.1em;
+}
+
+input[type='submit']:hover{
+    background-color: #70708a;
+    cursor: pointer;
+}
+
+input[type='file']{
+    padding: 3px 2px;
+}
+
+select{
+    width: 100%;
+}
+ 
+h1, p{
+    margin: 1em auto;
+    text-align: center;
+}
+ 
+a{
+    color: rgb(24, 182, 255);
+}
+ 
+a:hover{
+    color: rgb(152, 213, 243);
+}
+ 
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    /* margin: 5px 0; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inline[name='terms-and-conditions']{
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
